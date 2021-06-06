@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sonucActivity">
+    android:background="#FBE9E7"
+    tools:context=".activities.sonucActivity">
 
     <TextView
         android:id="@+id/textViewSonuc"

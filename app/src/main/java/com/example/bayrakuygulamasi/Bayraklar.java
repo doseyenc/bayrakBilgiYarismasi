@@ -2,15 +2,15 @@ package com.example.bayrakuygulamasi;
 
 public class Bayraklar {
     private int bayrak_id;
-    private String bayrak_adi;
+    private String bayrak_ad;
     private String bayrak_resim;
 
     public Bayraklar() {
     }
 
-    public Bayraklar(int bayrak_id, String bayrak_adi, String bayrak_resim) {
+    public Bayraklar(int bayrak_id, String bayrak_ad, String bayrak_resim) {
         this.bayrak_id = bayrak_id;
-        this.bayrak_adi = bayrak_adi;
+        this.bayrak_ad = bayrak_ad;
         this.bayrak_resim = bayrak_resim;
     }
 
@@ -22,12 +22,12 @@ public class Bayraklar {
         this.bayrak_id = bayrak_id;
     }
 
-    public String getBayrak_adi() {
-        return bayrak_adi;
+    public String getBayrak_ad() {
+        return bayrak_ad;
     }
 
-    public void setBayrak_adi(String bayrak_adi) {
-        this.bayrak_adi = bayrak_adi;
+    public void setBayrak_ad(String bayrak_ad) {
+        this.bayrak_ad = bayrak_ad;
     }
 
     public String getBayrak_resim() {

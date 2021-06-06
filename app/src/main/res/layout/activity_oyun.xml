@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".oyunActivity">
+    android:background="#FBE9E7"
+    tools:context=".activities.oyunActivity">
 
     <ImageView
         android:id="@+id/imageViewBayrak"
@@ -28,7 +29,7 @@
         android:layout_marginStart="55dp"
         android:layout_marginLeft="55dp"
         android:layout_marginTop="75dp"
-        android:text="TextView"
+        android:text="Doğru : 0"
         android:textColor="#8BC34A"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="55dp"
         android:layout_marginRight="55dp"
-        android:text="TextView"
+        android:text="Yanlış : 0"
         android:textColor="#F44336"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/textViewDogruSayisi"

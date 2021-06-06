@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BayrakUygulamasi">
-        <activity android:name=".sonucActivity"></activity>
-        <activity android:name=".oyunActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".activities.sonucActivity"></activity>
+        <activity android:name=".activities.oyunActivity" />
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
